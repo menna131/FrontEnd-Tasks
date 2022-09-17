@@ -1,0 +1,878 @@
+* {
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    text-decoration: none;
+    line-height: normal;
+    list-style-type: none;
+}
+html { overflow-x:hidden; }
+body {
+    line-height: normal;
+    overflow-x:hidden;
+}
+header {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+header>section:nth-of-type(1) {
+    padding: 3px 10px 0;
+    background-color: #FFCB0F;
+}
+header nav:first-child {
+    padding: 0;
+    margin: 0;
+}
+header nav:first-child .navbar-brand {
+    font-size: 7px;
+    color: black;
+    line-height: normal;
+    margin: 2px 2px 3px 0;
+    padding: 0;
+}
+header nav:first-child p:last-of-type {
+    /* margin-right: 15%; */
+}
+header nav:first-child .navbar-brand:nth-child(2),
+header nav:first-child .navbar-brand:nth-child(3){
+    margin-left: 3px;
+}
+
+/***** 2nd Nav bar ******/
+header>section:nth-of-type(2) {
+    width: 100%;
+    padding: 5px 20px;
+    background-color: #222533;
+    direction: ltr;
+}
+header>section:nth-of-type(2) nav  {
+    padding: 0;
+    margin: 0;
+}
+header>section:nth-of-type(2) nav h1 {
+    font-size: 10px;
+    font-weight: 900;
+    color: white;
+    margin: 0 0 1px 0;
+    padding: 0;
+    text-align: left;
+}
+header>section:nth-of-type(2) nav h1>span {
+    color: #FFC502;
+}
+header section:nth-child(2) > nav > button > span > i {
+    color: #FFC502;
+}
+header .navbar-light .navbar-toggler-icon {
+    background: none;
+}
+header section:nth-child(2) > nav > button > span {
+    border: #FFC502 solid thin;
+    padding: 0 3px;
+    font-size: 15px;
+    font-weight: lighter;
+    border-radius: 5px;
+    margin: 0;
+}
+header .navbar-light .navbar-toggler {
+    outline: none;
+    border: none;
+}
+
+header>section:nth-of-type(2) nav p {
+    font-size: 5px;
+    color: white;
+    margin: 0 0 1px;
+    padding: 0;
+}
+header>section:nth-of-type(2) nav button span{
+    color: white !important;
+}
+#navbarSupportedContent > ul > li> a {
+    font-size: 10px;
+    color: white;
+}
+
+/******** Header - Article ******/
+header article {
+    width: 100%;
+    margin: 0 auto;
+    padding: 30px 20px;
+    background: url('images/banner.jpg') no-repeat;
+    background-size: cover;
+    background-position: right center;
+}
+header article h3 {
+    color: white;
+    text-transform: capitalize;
+    font-size: 10px;
+    font-weight: lighter;
+    padding: 0 0 4px 0;
+    margin: 0;
+}
+header article h1 {
+    font-size: 13px;
+    color: white;
+    font-weight: 900;
+    text-transform: uppercase;
+    padding: 0;
+    margin: 0;
+}
+header article h1:nth-of-type(2) {
+    color: #FFCB0F;
+    padding: 0 0 4px 0;
+}
+header article p {
+    color: white;
+    font-size: 7px;
+}
+header article button {
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase;
+    width: 34px;
+    height: 12px;
+    background-color: black;
+    font-size: 4px;
+    color: #FFCB0F;
+    border: #FFCB0F solid thin;
+}
+
+/**** Section2 - welcome *****/
+#welcome {
+    width: 100%;
+    margin: 0 auto;
+    padding: 30px 20px;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#welcome article h1 {
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #FFCB0F;
+}
+#welcome article h3 {
+    font-size: 10px;
+    color: black;
+}
+#welcome article p {
+    font-size: 8px;
+    margin-bottom: 5px;
+}
+#welcome article button {
+    width: 50px;
+    height: 20px;
+    font-size: 5px;
+    color: white;
+    background-color: #FFCB0F;
+    text-transform: uppercase;
+    border: none;
+    margin-bottom: 5px;
+}
+#welcome div img {
+    width: 10em;
+    height: auto;
+}
+
+/**** Section 3 - Choose ****/
+#choose {
+    width: 100%;
+    margin: 0 auto;
+    background-image: url('images/bg4.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+#choose article {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 30px 20px;
+    text-align: center;
+}
+#choose article h1 {
+    color: #FFCB0F;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+#choose article p {
+    color:white;
+    font-size: 12px;
+    font-weight: lighter;
+    margin-bottom: 50px;
+}
+#choose article>div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding: 10px 20px;
+}
+#choose article>div div {
+    flex-basis: 110px;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 0 10px 30px;
+    padding: 10px 10px 20px;
+    border-radius: 5px;
+}
+#choose article div div figure {
+    background-color: #FFCB0F;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin: -35px 0 0 20px;
+}
+#choose article div div img {
+    width: 20px;
+    height: 20px;
+    margin-top: 15px;
+}
+#choose article div div h6 {
+    color: #FFCB0F;
+    font-size: 8px;
+    text-transform: uppercase;
+    margin: 10px 0 0 0;
+    padding: 0 0 5px;
+}
+#choose article div div p {
+    color: white;
+    font-size: 6px;
+    margin: 0;
+    padding: 0;
+}
+/***** Section 4 - Services *****/
+#services {
+    width: 100%;
+    margin: 0 auto;
+    padding: 30px 20px;
+    background-color: white;
+}
+#services h1 {
+    color: #484848;
+    font-size: 13px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    text-align: center;
+}
+#services>div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+#services .card {
+    border: none;
+    position: static;
+    display: block;
+    flex-basis: 152px;
+    margin: 15px 10px;
+}
+#services .card div:nth-of-type(1) {
+    height: 120px;
+    position: relative;
+
+}
+#services .card div:nth-of-type(1)>img {
+    position: absolute;
+    width: 150px;
+    height: 120px;
+}
+#services .card div:nth-of-type(1)>div {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    width: 150px;
+    height: 20px;
+    bottom: 0;
+}
+#services .card:nth-of-type(1)>div:nth-of-type(1)>div>p {
+    position: absolute;
+    right: 10%;
+    font-size: 8px;
+    padding: 4px 0px;
+    color: white;
+    text-transform: uppercase;
+}
+#services .card:nth-of-type(2)>div:nth-of-type(1)>div>p {
+    position: absolute;
+    right: 33%;
+    font-size: 8px;
+    padding: 4px 0px;
+    color: white;
+    text-transform: uppercase;
+}
+#services .card div:nth-of-type(1)>div>p {
+    position: absolute;
+    right: 30%;
+    font-size: 8px;
+    padding: 4px 0px;
+    color: white;
+    text-transform: uppercase;
+}
+#services .card .card-body {
+    padding: 10px 0 0;
+}
+#services .card .card-body p {
+    font-size: 8px;
+    color: #484848;
+}
+#services .card .card-body>div {
+    position: relative;
+    height: 30px;
+}
+#services .card .card-body button {
+    position: absolute;
+    right: 33%;
+    width: 50px;
+    height: 20px;
+    font-size: 5px;
+    color: white;
+    background-color: #FFCB0F;
+    text-transform: uppercase;
+    border: none;
+    margin: 0 0 5px 0;
+}
+/***** Section 6 - made ****/
+#made {
+    width: 100%;
+    margin: 0 auto;
+    background: url('images/bg2.jpg') no-repeat center center;
+    background-size: cover;
+} 
+#made>div {
+    background-color: rgba(80, 79, 79, 0.9);
+    padding: 30px 20px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+#made>div h1 {
+    color:white;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+#made>div p {
+    color:white;
+    font-size: 12px;
+    font-weight: lighter;
+    margin-bottom: 20px;
+}
+#made>div div:nth-child(2) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto 50px;
+    padding: 0 70px;
+}
+#made>div div:nth-child(2) button {
+    width: 55px;
+    height: 20px;
+    font-size: 8px;
+    color: white;
+    background-color: transparent;
+    border-radius: 8px;
+    padding: 0;
+    text-transform: uppercase;
+    margin: 5px 4px;
+    border: none;
+    outline: none;
+}
+#made>div div:nth-child(2) button:nth-child(3) {
+    width: 80px;
+}
+#made>div div:nth-child(2) button:hover {
+    background-color: #282828;
+    border: none;
+}
+/********** BS- Galary **********/
+
+#made > div > div.container > div > div:nth-child(2) > div > div:nth-child(2) {
+    padding: 0 15px;
+    margin:0;
+    width:170px;
+    height:115px;
+}
+
+
+/***** Section 7 - reviews *****/
+#review {
+    width: 100%;
+    margin: 0 auto;
+    background: url('images/bg3.jpg') no-repeat center center;
+    background-size: cover;
+    padding: 30px 20px;
+}
+#review>div:first-child {
+    text-align: center;
+    padding-bottom: 20px;
+}
+#review>div:first-child h1 {
+    color:#484848;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+#review>div:first-child p {
+    color:#484848;
+    font-size: 12px;
+    font-weight: lighter;
+    margin-bottom: 20px;
+}
+#review>div:last-child {
+    padding: 0 15%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+#review>div:last-child>.card {
+    flex-basis: 196px;
+    border: none;
+    margin: 10px 10px 40px;
+    height: 293px;
+    background-color: transparent;
+}
+#review>div:last-child>.card .card-body {
+    flex-basis: 70px;
+    padding: 10px;
+    background-color: #E5E5E5;
+}
+#review>div:last-child>.card .card-body img {
+    width: 20px;
+    height: 12px;
+}
+#review>div:last-child>.card>.card-body>.card-text {
+    font-size: 10px;
+    color:#484848;
+    text-align: justify;
+    margin-left: 30px;
+    margin-top: -15px;
+}
+/***** unique ******/
+#review>div:last-child>.card:nth-of-type(2) .card-body {
+    background-color: #FFCB0F;
+}
+#review>div:last-child>.card:nth-of-type(2) .card-body p {
+    color:white;
+}
+/***** end uniq *****/
+#review>div:last-child>.card div:last-of-type {
+    width: 30px;
+    height: 35px;
+    margin: -10px auto 0;
+}
+#review>div:last-child>.card>figure {
+    margin: 0 auto;
+}
+#review>div:last-child>.card>figure>img {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+}
+#review>div:last-child>.card>article {
+    margin: 2px auto 0;
+}
+#review>div:last-child>.card>article>p {
+    font-size: 10px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+/****** Section 8 - questions ********/
+#ques {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #FEDB5D;
+}
+#ques>div {
+    padding: 30px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+#ques>div>article {
+    margin: 10px;
+}
+#ques>div>article h3,
+#ques>div>article h1 {
+    font-size: 13px;
+    font-weight: 900;
+    color: #73757E;
+    text-transform: uppercase;
+    line-height: 0.5;
+}
+#ques>div>article h1 {
+    font-size: 14px;
+    font-weight: lighter;
+}
+/***** form in questions ***/
+#ques>div>form {
+    margin: 0 10px 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+#ques>div>form>div>input::placeholder,
+#ques>div>form>div>textarea::placeholder {
+    color: #C7C7C7;
+    font-size: 9px;
+}
+#ques>div>form>div>input,
+#ques>div>form>div>textarea {
+    width: 120px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    padding: 2px 0 10px 8px;
+}
+#ques>div>form>div>textarea {
+    padding-top: 8px;
+    height: 30px;
+    width: 250px;
+}
+#ques>div>form>div>button {
+    margin: 5px;
+    background-color: #73757E;
+    color: white;
+    border-radius: 10px;
+    height: 30px;
+    width: 80px;
+    font-size: 12px;
+    text-transform: uppercase;
+    border: none;
+}
+/**** Section 9 - empty *****/
+#empty {
+    width: 100%;
+    background-color: #73757E;
+    height: 1em;
+}
+
+/******* Section 10 - footer *****/
+footer {
+    width: 100%;
+    background-image: url('images/bg2.jpg');
+    background-position: center center;
+    background-size: cover;
+    padding: 0 0 -20px 0;
+}
+footer>div {
+    background-color: rgba(26, 28, 39,0.9);
+    margin: 0 auto;
+    padding: 30px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+footer>div>article {
+    margin: 10px 10px 30px 20px;
+    color: #fff;
+    flex-basis: 200px;
+}
+footer>div>article>h2 {
+    font-size: 13px;
+    margin: 0 0 20px 0;
+}
+footer>div>article>h1 {
+    color: #FFCB0F;
+    font-size: 15px;
+    font-weight: 900;
+    line-height: 0;
+    text-transform: uppercase;
+    margin: 0 0 10px 0;
+}
+footer>div>article>p:first-child {
+    line-height: 0;
+}
+footer>div>article>p {
+    font-size: 8px;
+    margin: 0 0 10px 0;
+}
+footer>div>article>div {
+    display: flex;
+    flex-wrap: wrap;
+}
+footer>div>article>div>a {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #FFCB0F;
+    margin: 2px;
+}
+footer>div>article>div>a>i {
+    font-size: 10px;
+    margin: 0 0 0 8px;
+    color: rgb(26, 28, 39);
+}
+/**** others ***/
+footer>div>article:nth-child(2)>ul,
+footer>div>article:nth-child(3)>ul {
+    margin: 0;
+    padding: 0;
+}
+footer>div>article:nth-child(2)>ul {
+    margin-left: 10px;
+}
+footer>div>article>ul>li {
+    font-size: 10px;
+}
+footer>div>article>ul>li>span>div {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    border: white solid thin;
+    padding: 1px;
+}
+footer>div>article>ul>li>span>div>p {
+    font-size: 8px;
+}
+footer>div>article:nth-child(3)>ul>li {
+    display: flex;
+    margin: 5px 5px 5px -5px;
+    /* flex-wrap: wrap; */
+}
+footer>div>article:nth-child(3)>ul>li>div {
+    height: 25px;
+    width: 25px;
+    padding: 0 0 0 5px;
+    border-radius: 50%;
+    border: white solid thin;
+    margin: 2px;
+}
+footer>div>article:nth-child(3)>ul>li>div>p {
+    font-size: 5px;
+    line-height: 0.5;
+}
+footer>div>article:nth-child(3)>ul>li>div>span {
+    font-size: 8px;
+    font-weight: bolder;
+}
+footer>div>article:nth-child(3)>ul>li>p {
+    font-size: 10px;
+    margin: 0 0 0 3px;
+}
+footer>div>article:nth-child(4)>div {
+    display: flex;
+    flex-wrap: wrap;
+}
+footer>div>article:nth-child(4)>div>p {
+    font-size: 10px;
+    margin: 3px 3px 10px 9px;
+}
+#copy {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 1.5em 0;
+    background-color: #1a1c27;
+    height: 60px;
+}
+#copy>p {
+    font-size: 8px;
+    color: white;
+    font-weight: 600;
+}
+#copy>p>span {
+    color: #FFCB0F;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:520px){
+    header>section:nth-of-type(1) {
+        padding: 3px 20px 0;
+        background-color: #FFCB0F;
+    }
+    header nav:first-child .navbar-brand {
+        font-size: 8px;
+    }
+
+    /**** header article ****/
+    header article {
+        padding: 50px 30px;
+    }
+    header article h3 {
+        font-size: 13px;
+        padding: 0 0 4px 0;
+    }
+    header article h1 {
+        font-size: 18px;
+    }
+    header article h1:nth-of-type(2) {
+        padding: 0 0 9px 0;
+    }
+    header article p {
+        font-size: 10px;
+    }
+    header article button {
+        width: 40px;
+        height: 14px;
+        font-size: 5px;
+    }
+}
+/* Small devices (landscape phones, 576 px and up) */
+@media
+(min-width:576px){
+}
+
+/* Medium devices ( 768 px and up) */
+@media
+(min-width:768px){
+    header nav:first-child p:last-of-type {
+        margin-right: 50%;
+    }
+
+    /**** header article ****/
+    header article {
+        padding: 60px 40px;
+    }
+    header article h3 {
+        font-size: 18px;
+        padding: 0 0 6px 0;
+    }
+    header article h1 {
+        font-size: 20px;
+    }
+    header article h1:nth-of-type(2) {
+        padding: 0 0 15px 0;
+    }
+    header article p {
+        font-size: 15px;
+    }
+    header article button {
+        width: 46px;
+        height: 14px;
+        font-size: 6px;
+        margin-top: 10px;
+    }
+
+}
+@media (min-width: 720px) {
+    #made > div > div.container > div > div:nth-child(2) {
+        margin: 0;
+        padding: 0;
+        align-items: normal;
+    }
+}
+
+/* Large devices ( 992 px and up) */
+@media
+(min-width:992px){
+    header nav:first-child p:last-of-type {
+        margin-right: 70%;
+    }
+
+    /**** header article ****/
+    header article {
+        padding: 70px 50px;
+    }
+    header article h3 {
+        font-size: 20px;
+        padding: 0 0 10px 0;
+    }
+    header article h1 {
+        font-size: 25px;
+    }
+    header article h1:nth-of-type(2) {
+        padding: 0 0 18px 0;
+    }
+    header article p {
+        font-size: 19px;
+        margin-bottom: 3rem;
+    }
+    header article button {
+        width: 55px;
+        height: 18px;
+        font-size: 7px;
+        margin-top: 10px;
+    }
+
+    /**** Section 3 - Choose ****/
+    #choose article {
+        padding: 30px 20px;
+    }
+    #choose article h1 {
+        font-size: 15px;
+    }
+    #choose article p {
+        font-size: 12px;
+        margin-bottom: 50px;
+    }
+    #choose article>div {
+        padding: 10px 20px;
+    }
+    #choose article>div div {
+        flex-basis: 200px;
+        margin: 0 10px 30px;
+        padding: 10px 10px 20px;
+        border-radius: 5px;
+    }
+    #choose article div div figure {
+        margin: -35px 0 0 60px;
+    }
+    #choose article div div img {
+        width: 20px;
+        height: 20px;
+        margin-top: 15px;
+    }
+    #choose article div div h6 {
+        font-size: 10px;
+        margin: 10px 0 0 0;
+        padding: 0 0 5px;
+    }
+    #choose article div div p {
+        font-size: 8px;
+    }
+}
+
+/* Extra large devices (large desktops, 1200 px and up) */
+@media (min-width:1200px){
+    /***** header ******/
+    body > header > article > button:nth-child(5),
+    body > header > article > button:nth-child(6),
+    #welcome article button {
+        width: 100px;
+        height: 30px;
+        font-size: 10px;
+        margin-bottom: 13px;
+    }
+    /**** Section2 - welcome *****/
+    #welcome {
+        padding: 60px 50px;
+    }
+    #welcome article h1 {
+        font-size: 20px;
+    }
+    #welcome article h3 {
+        font-size: 17px;
+    }
+    #welcome article p {
+        font-size: 15px;
+        margin-bottom: 15px;
+    }
+}

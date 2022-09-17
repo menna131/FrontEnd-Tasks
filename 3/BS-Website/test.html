@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.min.css" type="text/css" rel="stylesheet">
+    <title>Document</title>
+    <style>
+        .container>.row img {
+            width: 50px;
+            height: 50px;
+        }
+        /* .container>.row {
+            width: 30px;
+        } */
+        /* .container>.row>div {
+            height: 20px;
+        } */
+        .container>.row>div:nth-child(1) {
+            background-color: red;
+            /* height: 40px; */
+        }
+        .container>.row>div:nth-child(2) {
+            background-color: blue;
+        }
+        .container>.row>div:nth-child(3) {
+            background-color: green;
+        }
+        .container>.row>div:nth-child(4) {
+            background-color: violet;
+            justify-self: flex-end;
+        }
+        .container>.row>div:nth-child(5) {
+            background-color: lime;
+            justify-self: flex-end;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-5"><img src="images/gallery1.jpg"></div>
+            <div class="col-2"><img src="images/gallery2.jpg"></div>
+            <div class="col-2"><img src="images/gallery3.jpg"></div>
+            <div class="col-2"><img src="images/gallery4.jpg"></div>
+            <div class="col-2"><img src="images/gallery5.jpg"></div>
+        </div>
+    </div>
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
